@@ -1,0 +1,212 @@
+*
+{
+    scroll-behavior: smooth;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;  
+}
+header
+{
+    font-size: 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+header #navbarNavAltMarkup
+{
+    margin-left: 4%;
+}
+header img
+{
+    width: 10%;
+}
+
+
+.banner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 161, 248);
+    margin-top: 3%;
+}
+.banner .align
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.banner .content
+{
+    width: 40%;
+}
+.banner .content a
+{
+    text-decoration: none;
+    color:  white;
+    background-color: black;
+    padding: 2%;
+}
+.banner .pic
+{
+    width: 40%;
+}
+.banner .pic img
+{
+    width: 100%;
+}
+
+.desc
+{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+
+.row1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin: 5%;
+}
+.row1 .text
+{
+    width: 40%;
+}
+.row1 .img 
+{
+    width: 30%;
+}
+.row1 .img img
+{
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+}
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 3%;
+}
+footer .newsletter
+{
+    width: 50%;
+}
+footer .newsletter img
+{
+    width: 20%;
+}
+footer .newsletter input[type="email"]
+{
+    text-align: center;
+    font-size: 100%;
+    width: 50%;
+    padding: 1%;
+    outline: none;
+}
+footer .newsletter input[type="button"]
+{
+    width: 30%;
+    padding: 1%;
+    font-size: 100%;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    
+}
+footer .newsletter input[type="button"]:hover
+{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+footer .navfoot
+{
+ width:25%;
+ line-height: 30px;
+}
+footer .navfoot a
+{
+    text-decoration: none;
+    color: black; 
+}
+footer .navfoot a:hover
+{
+    text-decoration: underline;
+}
+footer .follow
+{
+    width: 25%;
+    line-height: 30px;  
+}
+footer .follow a
+{
+    text-decoration: none;
+    color: black;
+}
+footer .follow a:hover
+{
+    text-decoration: underline;
+}
+footer .follow img
+{
+    width: 5%;
+}
+hr
+{
+    width: 95%;
+    background-color: black;
+    height: 1px;
+}
+.copyright
+{
+    display: flex;
+    justify-content: end;
+    margin-right: 4%;
+}
+
+
+
+
+#quiz-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#quiz-container .align 
+{
+    width: 60%;
+    line-height: 30px;
+    padding: 2%;
+    background-color: rgb(63, 161, 248);
+    box-shadow: 0px 0px 10px black;
+}
+#quiz-container .align #options
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10%;
+}
+
+#quiz-container .align #question-container button
+{
+    background: #000;
+    color: white;
+    
+}
+#quiz-container .align #question-container button:hover
+{
+    box-shadow: 0px 0px 10px black;
+}
